@@ -1,0 +1,66 @@
+
+.list {
+	color: black;
+	width: 319px;
+	margin: 20px auto;
+	padding: 10px;
+	height: 30px;
+	background-color: #fa8aef;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list p {
+	margin-top: 7px;
+}
+
+.non-editable-input {
+	padding: 0px;
+	transition: ease-in-out;
+	background-color: transparent;
+	color: black;
+	font-size: 17px;
+}
+
+.input-field {
+	padding: 5px;
+	transition: ease-in-out;
+	background-color: #fa8aef;
+	border: 0;
+	color: black;
+	font-size: 17px;
+}
+
+.list  span {
+	cursor: pointer;
+	color: white;
+  margin-top: 6px;
+}
+
+.non-editable-button {
+	background-color: #fa8aef;
+	border: none;
+}
+
+.save-button {
+	height: 31px;
+	margin: 0px 11px 0px -68px;
+	cursor: pointer;
+	background-color: rgb(221, 182, 75);
+	border-radius: 8px;
+}
+
+.buttons-container {
+	margin-right: 6px;
+	display: flex;
+}
+
+.editable-button {
+	background-color: #fa8aef;
+	border: none;
+}
+
+.editable-button input:focus {
+	outline: none;
+}
