@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import TodoList from './TodoList';
+import TodoList from './TodoList/index';
 import TodoListHeader from './TodoListHeader';
 import AddTodo from './AddTodo';
 

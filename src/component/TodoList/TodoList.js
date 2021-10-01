@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import TodoListItem from './TodoListItem';
+import TodoListItem from '../TodoListItem';
 
 class TodoList extends Component {
   render() {
@@ -21,16 +20,9 @@ class TodoList extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    todoItems: state.todoList.items,
-  }
-}
-
-
 TodoList.propTypes = {
   todoItems: PropTypes.array,
   dispatch: PropTypes.func,
 };
 
-export default connect(mapStateToProps, null)(TodoList);
+export default TodoList;
